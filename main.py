@@ -4,6 +4,7 @@ from time import sleep
 
 st.write("# Password breach checker")
 password = st.text_input("Type in your password:")
+st.write("Are you concered about security of this application? Check source code [here](https://github.com/youshitsune/password-breach).")
 if password:
     response = pp.check(password)
     if response == 0:
