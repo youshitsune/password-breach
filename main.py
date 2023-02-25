@@ -1,6 +1,5 @@
 import streamlit as st
 import pwnedpasswords as pp
-from time import sleep
 
 st.write("# Password breach checker")
 password = st.text_input("Type in your password:")
